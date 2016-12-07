@@ -9,4 +9,24 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.guest.smalltalk.ui.PostMessageActivity">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editPostText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="top"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Post"
+        android:id="@+id/postButton"
+        android:layout_below="@+id/editPostText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="103dp" />
 </RelativeLayout>
